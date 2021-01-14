@@ -1,1 +1,34 @@
 /* Add CSS styling here */
+
+header{
+    width: 100%;
+    border: 1px solid black;
+    height: 180px;
+    background:rgb(73, 26, 182);
+}
+
+header h1{
+    font-size: 2rem;
+    margin: 30px 30px;
+    color:#fff;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-left: 70px;
+    height: 60px;
+    /* border: 1px solid black; */
+}
+
+ nav a button{
+    padding: 15px 30px;
+    background:rgb(156, 26, 128);
+    color:#fff;
+}
+
+nav a button:focus{
+    outline:none;
+}
+
