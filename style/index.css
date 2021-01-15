@@ -1,1 +1,172 @@
 /* Add CSS styling here */
+
+html{
+    border:1px solid black;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    border: 1px solid black;
+    height: 180px;
+    background:rgb(73, 26, 182);
+}
+
+header h1{
+    font-size: 4rem;
+    margin: 30px 30px;
+    color:#fff;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+    margin-left: 70px;
+    height: 37px;
+}
+
+ nav a button{
+    padding: 15px 30px;
+    background:rgb(156, 26, 128);
+    color:#000;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+nav a button:hover{
+    background: rgb(160, 20, 202);
+    color: #fff;
+}
+
+nav a button:focus{
+    outline:none;
+}
+
+.main-content{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 25px 0;
+}
+
+.main-content .box1{
+    background:url(https://picsum.photos/151) no-repeat center;
+    background-size:cover;
+    height: 400px;
+    width:42vw;
+    margin-left: 18px;
+    border: 1px solid;
+    image-rendering: crisp-edges;
+}
+
+.main-content .box2{
+    width:50%;
+    height: 400px;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: start;
+    justify-content: center;
+    padding-left: 60px;
+}
+
+.box2 h2{
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.box2 h3{
+    background: rgb(29, 11, 184);
+    color:#fff;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.box2 p{
+    font-size: 1.5rem;
+}
+
+.box2 a{
+    text-decoration: none;
+}
+
+.main-content .box {
+    width:22.5%;
+    height: 200px;
+    margin: 20px 0 30px 0;
+    cursor: pointer;
+}
+
+.box h3{
+    display:block;
+    text-align: center;
+    margin: 10px 50px 0 0;
+    font-size: 1.5rem;
+}
+
+.box img{
+    width:80%;
+    height:100%;
+}
+
+footer{
+    display:flex;
+    flex-flow:column wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    background: rgb(73, 26, 182);
+}
+
+footer p{
+    font-size:2rem;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight:bold;
+}
+
+footer button{
+    padding: 15px;
+    border-radius: 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+footer button:hover{
+    background: rgb(29, 11, 184);
+    color:#fff;
+}
+
+footer button:focus{
+    outline: none;
+}
+
+footer .icons{
+    font-size: 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-self: center;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.fa-twitter{
+    color:aqua;
+    cursor: pointer;
+}
+
+.fa-facebook-square{
+    color:rgb(66, 159, 235);
+    cursor: pointer;
+}
+
+.fa-instagram{
+    color:rgb(174, 98, 184);
+    cursor: pointer;
+}
